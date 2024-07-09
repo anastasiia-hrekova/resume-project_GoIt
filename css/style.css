@@ -8,6 +8,8 @@ font-family: "Montserrat", sans-serif;
     background: #ffffff;
     display: flex;
     flex-direction: row-reverse;
+    width: 1200px;
+    margin: 0 auto;
 }
 
 .main-content {
@@ -93,4 +95,168 @@ font-family: "Montserrat", sans-serif;
     line-height: 24px;
     color: #161d2a;
 }
+
+/* Main info */
+
+.my-profession{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000;
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+.my-name{
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 122%;
+    color: #000;
+    margin-top: 0;
+    margin-bottom: 12px;
+}
+
+.my-descr{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 171%;
+    color: #595959;
+    margin-top: 0;
+}
+
+.my-info{
+    margin-bottom: 40px;
+}
+
+/* Projects */
+
+.my-projects-title{
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 123%;
+        color: #000;
+        margin-top: 0;
+        margin-bottom: 8px;
+}
+
+.my-projects-list{
+    padding-left: 16px;
+    margin-bottom: 40px;
+}
+
+.my-projects-item{
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 171%;
+        color: #000;
+}
+
+.my-projects-item-link{
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 171%;
+        text-decoration: underline;
+        text-decoration-skip-ink: none;
+        color: #005fff;
+}
+
+.my-projects-item-tech{
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 171%;
+        color: #595959;
+}
+
+/* Work Experience */
+
+.work-experience{
+    margin-bottom: 40px;
+}
+
+.work-experience-title{
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 123%;
+        color: #000;
+        margin-top: 0;
+        margin-bottom: 8px;
+}
+
+.company-title{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 125%;
+    color: #000;
+    margin-top: 0;
+    margin-bottom: 11px;
+}
+
+.company-span{
+    color: #6d9bf5;
+}
+
+.work-term{
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 125%;
+        color: #a8a8a8;
+        margin-top: 0;
+        margin-bottom: 8px;
+}
+
+.work-term-span{
+    color: #000;
+}
+
+.work-descr-list{
+    margin-top: 0;
+    margin-bottom: 12px;
+    padding-left: 16px;
+}
+
+.work-descr-item{
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 171%;
+        color: #595959;
+}
+
+/* Education */
+
+.education-title{
+        font-weight: 700;
+        font-size: 22px;
+        color: #000;
+        margin-top: 0;
+        margin-bottom: 8px;
+}
+
+.universe-name{
+        font-weight: 700;
+        font-size: 16px;
+        color: #6d9bf5;
+        margin-top: 0;
+        margin-bottom: 8px;
+}
+
+.diplom{
+        font-weight: 700;
+        font-size: 14px;
+        color: #000;
+        margin-top: 0;
+        margin-bottom: 8px;
+}
+
+.study-term{
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 125%;
+        color: #a8a8a8;
+        margin-top: 0;
+}
+
+.study-term-span{
+    color: #000;
+}
+
 
