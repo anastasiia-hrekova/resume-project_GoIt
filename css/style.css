@@ -308,19 +308,13 @@ body {
   }
   .sidebar {
     width: 100%;
-
   }
   .my-photo {
     width: 100%;
     margin: 0;
   }
+  .my-projects-item {
+    display: flex;
+    flex-direction: column;
+  }
 }
-@media screen and (max-width: 370px){
-.my-projects-item{
-  display: flex;
-  flex-direction: column;
-}
-}
-  
-
-
