@@ -1,262 +1,317 @@
 body {
-background: #f6f6fa;
-padding: 40px 40px 40px 40px;
-font-family: "Montserrat", sans-serif;
+  background: #f6f6fa;
+  padding: 40px 40px 40px 40px;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .wrapper {
-    background: #ffffff;
-    display: flex;
-    flex-direction: row-reverse;
-    max-width: 1200px;
-    margin: 0 auto;
+  background: #ffffff;
+  display: flex;
+  flex-direction: row-reverse;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .main-content {
-    padding: 80px 40px 80px 88px;
-    box-sizing: border-box;
+  padding: 80px 40px 80px 88px;
+  box-sizing: border-box;
 }
 
 /* Sidebar */
 
 .sidebar {
-    background: #e0ebfe;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    box-sizing: border-box;
-    width: 370px;
+  background: #e0ebfe;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  box-sizing: border-box;
+  width: 370px;
 }
 
 .sidebar-content {
-    padding: 40px 40px 40px 40px;
-    box-sizing: border-box;
+  padding: 40px 40px 40px 40px;
+  box-sizing: border-box;
 }
 
 /* Contacts container */
 
 .contacts-title {
-    font-weight: 700;
-    font-size: 22px;
-    color: #161d2a;
-    line-height: normal;
-    margin-top: 0;
-    margin-bottom: 8px;
+  font-weight: 700;
+  font-size: 22px;
+  color: #161d2a;
+  line-height: normal;
+  margin-top: 0;
+  margin-bottom: 8px;
 }
 
 .contacts-type {
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 24px;
-    color: #161d2a;
-    margin-right: 8px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  color: #161d2a;
+  margin-right: 8px;
 }
 
-
 .contacts-link {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
-    text-decoration: underline;
-    text-decoration-skip-ink: none;
-    color: #2979ff;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  color: #2979ff;
 }
 
 .contacts-item {
-    margin-top: 0;
-    margin-bottom: 4px;
+  margin-top: 0;
+  margin-bottom: 4px;
 }
 
-.contacts-container { 
-    margin-bottom: 40px;
+.contacts-container {
+  margin-bottom: 40px;
 }
 
 /* Skills container */
 
 .skills-container {
-    margin-bottom: 40px;
+  margin-bottom: 40px;
 }
 
 .skills-title {
-    font-weight: 700;
-    font-size: 22px;
-    color: #161d2a;
-    line-height: normal;
-    margin-top: 0;
-    margin-bottom: 8px;
+  font-weight: 700;
+  font-size: 22px;
+  color: #161d2a;
+  line-height: normal;
+  margin-top: 0;
+  margin-bottom: 8px;
 }
 
 .skills-list {
-    padding-left: 22px;
+  padding-left: 22px;
 }
 
 .skills-list-item {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
-    color: #161d2a;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #161d2a;
 }
 
 /* Main info */
 
-.my-profession{
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 17px;
-    color: #000;
-    margin-top: 0;
-    margin-bottom: 8px;
+.my-profession {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000;
+  margin-top: 0;
+  margin-bottom: 8px;
 }
 
-.my-name{
-    font-weight: 700;
-    font-size: 45px;
-    line-height: 122%;
-    color: #000;
-    margin-top: 0;
-    margin-bottom: 12px;
+.my-name {
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 122%;
+  color: #000;
+  margin-top: 0;
+  margin-bottom: 12px;
 }
 
-.my-descr{
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 171%;
-    color: #595959;
-    margin-top: 0;
+.my-descr {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 171%;
+  color: #595959;
+  margin-top: 0;
 }
 
-.my-info{
-    margin-bottom: 40px;
+.my-info {
+  margin-bottom: 40px;
 }
 
 /* Projects */
 
-.my-projects-title{
-        font-weight: 700;
-        font-size: 22px;
-        line-height: 123%;
-        color: #000;
-        margin-top: 0;
-        margin-bottom: 8px;
+.my-projects-title {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 123%;
+  color: #000;
+  margin-top: 0;
+  margin-bottom: 8px;
 }
 
-.my-projects-list{
-    padding-left: 16px;
-    margin-bottom: 40px;
+.my-projects-list {
+  padding-left: 16px;
+  margin-bottom: 40px;
 }
 
-.my-projects-item{
-        font-weight: 700;
-        font-size: 14px;
-        line-height: 171%;
-        color: #000;
+.my-projects-item {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 171%;
+  color: #000;
 }
 
-.my-projects-item-link{
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 171%;
-        text-decoration: underline;
-        text-decoration-skip-ink: none;
-        color: #005fff;
+.my-projects-item-link {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 171%;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  color: #005fff;
 }
 
-.my-projects-item-tech{
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 171%;
-        color: #595959;
+.my-projects-item-tech {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 171%;
+  color: #595959;
 }
 
 /* Work Experience */
 
-.work-experience{
-    margin-bottom: 40px;
+.work-experience {
+  margin-bottom: 40px;
 }
 
-.work-experience-title{
-        font-weight: 700;
-        font-size: 22px;
-        line-height: 123%;
-        color: #000;
-        margin-top: 0;
-        margin-bottom: 8px;
+.work-experience-title {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 123%;
+  color: #000;
+  margin-top: 0;
+  margin-bottom: 8px;
 }
 
-.company-title{
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 125%;
-    color: #000;
-    margin-top: 0;
-    margin-bottom: 11px;
+.company-title {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 125%;
+  color: #000;
+  margin-top: 0;
+  margin-bottom: 11px;
 }
 
-.company-span{
-    color: #6d9bf5;
+.company-span {
+  color: #6d9bf5;
 }
 
-.work-term{
-        font-weight: 400;
-        font-size: 12px;
-        line-height: 125%;
-        color: #a8a8a8;
-        margin-top: 0;
-        margin-bottom: 8px;
+.work-term {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 125%;
+  color: #a8a8a8;
+  margin-top: 0;
+  margin-bottom: 8px;
 }
 
-.work-term-span{
-    color: #000;
+.work-term-span {
+  color: #000;
 }
 
-.work-descr-list{
-    margin-top: 0;
-    margin-bottom: 12px;
-    padding-left: 16px;
+.work-descr-list {
+  margin-top: 0;
+  margin-bottom: 12px;
+  padding-left: 16px;
 }
 
-.work-descr-item{
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 171%;
-        color: #595959;
+.work-descr-item {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 171%;
+  color: #595959;
 }
 
 /* Education */
 
-.education-title{
-        font-weight: 700;
-        font-size: 22px;
-        color: #000;
-        margin-top: 0;
-        margin-bottom: 8px;
+.education-title {
+  font-weight: 700;
+  font-size: 22px;
+  color: #000;
+  margin-top: 0;
+  margin-bottom: 8px;
 }
 
-.universe-name{
-        font-weight: 700;
-        font-size: 16px;
-        color: #6d9bf5;
-        margin-top: 0;
-        margin-bottom: 8px;
+.universe-name {
+  font-weight: 700;
+  font-size: 16px;
+  color: #6d9bf5;
+  margin-top: 0;
+  margin-bottom: 8px;
 }
 
-.diplom{
-        font-weight: 700;
-        font-size: 14px;
-        color: #000;
-        margin-top: 0;
-        margin-bottom: 8px;
+.diplom {
+  font-weight: 700;
+  font-size: 14px;
+  color: #000;
+  margin-top: 0;
+  margin-bottom: 8px;
 }
 
-.study-term{
-        font-weight: 400;
-        font-size: 12px;
-        line-height: 125%;
-        color: #a8a8a8;
-        margin-top: 0;
+.study-term {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 125%;
+  color: #a8a8a8;
+  margin-top: 0;
 }
 
-.study-term-span{
-    color: #000;
+.study-term-span {
+  color: #000;
 }
 
+@media screen and (max-width: 1000px) {
+  body {
+    padding: 20px 20px 20px 20px;
+  }
 
+  .main-content {
+    padding: 25px;
+  }
+  .sidebar {
+    width: 35%;
+  }
+
+  .my-photo {
+    width: 100%;
+    margin: 0;
+  }
+
+  .sidebar-content {
+    padding: 15px;
+  }
+}
+
+@media screen and (max-width: 730px) {
+  body {
+    padding: 0;
+  }
+  .main-content {
+    padding: 15px;
+  }
+  .contacts-title {
+    font-size: 18px;
+  }
+  .skills-title {
+    font-size: 18px;
+    margin-bottom: 4px;
+  }
+  .skills-container {
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .wrapper {
+    flex-direction: column;
+  }
+  .main-content {
+    padding: 25px;
+  }
+  .sidebar {
+    width: 100%;
+
+  }
+  .my-photo {
+    width: 100%;
+    margin: 0;
+  }
+}
