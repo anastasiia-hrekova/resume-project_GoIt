@@ -315,3 +315,12 @@ body {
     margin: 0;
   }
 }
+@media screen and (max-width: 370px){
+.my-projects-item{
+  display: flex;
+  flex-direction: column;
+}
+}
+  
+
+
