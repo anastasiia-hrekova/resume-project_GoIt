@@ -20,15 +20,15 @@ body {
 /* Sidebar */
 
 .sidebar {
-  background: #e0ebfe;
-  padding-top: 20px;
+  background: #dbe6f096;
+  padding-top: 10px;
   padding-bottom: 40px;
   box-sizing: border-box;
-  width: 370px;
+  width: 40%;
 }
 
 .sidebar-content {
-  padding: 40px 40px 40px 40px;
+  padding: 70px 25px 25px 25px;
   box-sizing: border-box;
 }
 
@@ -57,7 +57,7 @@ body {
   line-height: 24px;
   text-decoration: underline;
   text-decoration-skip-ink: none;
-  color: #2979ff;
+  color: #0d2f74;
 }
 
 .contacts-item {
@@ -156,7 +156,7 @@ body {
   line-height: 171%;
   text-decoration: underline;
   text-decoration-skip-ink: none;
-  color: #005fff;
+  color: #0d2f74;
 }
 
 .my-projects-item-tech {
@@ -191,7 +191,7 @@ body {
 }
 
 .company-span {
-  color: #6d9bf5;
+  color: #0d2f74;
 }
 
 .work-term {
@@ -233,7 +233,7 @@ body {
 .universe-name {
   font-weight: 700;
   font-size: 16px;
-  color: #6d9bf5;
+  color: #0d2f74;
   margin-top: 0;
   margin-bottom: 8px;
 }
